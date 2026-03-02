@@ -15,6 +15,7 @@ phone : (+82)10-6512-2476
 # phone_title: Phone (Phone title override)
 # website: https://github.com/hungrypro7
 # website_title: Web (Website title override)
+cv_url: /assets/cv.pdf
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -108,36 +109,38 @@ content:
   - title: Experience
     layout: text
     content: |
-      **Vision AI Researcher (Intern)**  
-      DeepAI Team  
-      [**Kakao Mobility**](https://www.kakaomobility.com/), Seongnam, Gyeonggi-do, South Korea  
-      2025.04 — 2025.12
-
-      <br>
-
-      **Perception Engineer**  
-      Vueone Team (Autonomous Driving)  
-      [**Vueron Technology**](https://www.vueron.com/), Seoul, South Korea  
-      2024.10 — 2025.01
-
-      <br>
-
-      **Student Trainee**  
-      H-mobility class (Autonomous Driving)  
-      [**Hyundai H-mobility class**](https://h-mobility-class.com/), Seoul, South Korea  
-      2024.03 — 2024.07
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2025.04 — 2025.12</div>
+          <h5>Vision AI research Intern</h5>
+          <p>DeepAI Team</p>
+          <p><a href="https://www.kakaomobility.com/"><strong>Kakao Mobility</strong></a>, Seongnam, Gyeonggi-do, South Korea</p>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024.10 — 2025.01</div>
+          <h5>Perception Engineer</h5>
+          <p>Vueone Team (Autonomous Driving)</p>
+          <p><a href="https://www.vueron.com/"><strong>Vueron Technology</strong></a>, Seoul, South Korea</p>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024.03 — 2024.07</div>
+          <h5>Student Trainee</h5>
+          <p>H-mobility class (Autonomous Driving)</p>
+          <p><a href="https://h-mobility-class.com/"><strong>Hyundai H-mobility class</strong></a>, Seoul, South Korea</p>
+        </article>
+      </div>
 
   - title: Education
     layout: text
     content: |
-      **M.S. in Automotive Engineering**  
+      <i class="fas fa-graduation-cap"></i> **M.S. in Automotive Engineering**  
       [**IRCV Lab**](https://ircv.hanyang.ac.kr/) (Intelligent Robotics & Computer Vision Lab)  
       **Hanyang University**  
       2026.03 — Present
 
       <br>
 
-      **B.S. in Interdisciplinary Computing Technology, Double in Computer Science**  
+      <i class="fas fa-graduation-cap"></i> **B.S. in Interdisciplinary Computing Technology, Double in Computer Science**  
       **Hanyang University (ERICA)**  
       2019.03 — 2024.08
 
@@ -172,6 +175,10 @@ content:
       **College of Computing, Hanyang University**  
       2023.06
 
+  - title: Papers
+    layout: text
+    content: |
+      Preparing a publications list.
 
 # Footer
 footer_show_references: true

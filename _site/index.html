@@ -8,15 +8,24 @@
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Chanyoung Lee" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Chanyoung Lee" />
 <script type="application/ld+json">
-{"headline":"Chanyoung Lee","@type":"WebSite","url":"http://localhost:4000/","name":"Chanyoung Lee","@context":"https://schema.org"}</script>
+{"@type":"WebSite","headline":"Chanyoung Lee","url":"/","name":"Chanyoung Lee","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico"></head>
-<body class=""><div class="container header-container">
+<body class=""><div class="top-nav-container no-print">
+  <nav class="top-nav" aria-label="Section navigation">
+    <a class="top-nav__item" href="#home">Home</a>
+    <a class="top-nav__item" href="#projects">Projects</a>
+    <a class="top-nav__item" href="#awards">Awards</a>
+    <a class="top-nav__item" href="#papers">Papers</a>
+    <a class="top-nav__item" href="/assets/cv.pdf" target="_blank" rel="noopener">CV</a>
+  </nav>
+</div>
+<main class="page-content" aria-label="Content">
+    <div class="wrapper"><div id="home" class="container home-container">
+<div class="header-container header-embedded">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>Chanyoung Lee</h1></div>
@@ -40,21 +49,109 @@
         </p></div>
   </div>
 </div>
-<main class="page-content" aria-label="Content">
-    <div class="wrapper"><div class="container intro-container">
-  <h3 id="about-me">About Me</h3>
-  <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        <span class="profile-img" style="background-image: url(/images/cyl_photo3.jpg)"></span>
-      </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-      <p>Hello, My name is Chanyoung Lee, a Master’s student in Automotive Engineering at Hanyang University. I’m interested in E2E Autonomous Driving, with a particular interest in Vision AI that improves the safety and intelligence of self-driving systems.</p>
+<div class="home-grid">
+    <section class="home-card home-card--about">
+      <h4>Introduction</h4>
+      <div class="row clearfix home-about-row"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
+            <span class="profile-img" style="background-image: url(/images/cyl_photo3.jpg)"></span>
+          </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+          <p>Hello, My name is Chanyoung Lee, a Master’s student in Automotive Engineering at Hanyang University. I’m interested in E2E Autonomous Driving, with a particular interest in Vision AI that improves the safety and intelligence of self-driving systems.</p>
 
-    </div>
+        </div>
+      </div>
+    </section>
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <section class="home-card home-card--education">
+          <h4 id="education">Education</h4>
+          <div class="row clearfix">
+  <div class="col-md-12">
+    <p><i class="fas fa-graduation-cap"></i> <strong>M.S. in Automotive Engineering</strong><br />
+<a href="https://ircv.hanyang.ac.kr/"><strong>IRCV Lab</strong></a> (Intelligent Robotics &amp; Computer Vision Lab)<br />
+<strong>Hanyang University</strong><br />
+2026.03 — Present</p>
+
+<p><br /></p>
+
+<p><i class="fas fa-graduation-cap"></i> <strong>B.S. in Interdisciplinary Computing Technology, Double in Computer Science</strong><br />
+<strong>Hanyang University (ERICA)</strong><br />
+2019.03 — 2024.08</p>
+
   </div>
 </div>
 
-          <div class="container text-container">
-            <h3 id="projects">Projects</h3>
-            <div class="row clearfix">
+        </section>
+      
+    
+      
+      
+    
+      
+      
+    
+
+    
+      
+      
+    
+      
+      
+        <section class="home-card home-card--experience">
+          <h4 id="experience">Experience</h4>
+          <div class="row clearfix">
+  <div class="col-md-12">
+    <div class="timeline">
+  <article class="timeline-item">
+    <div class="timeline-date">2025.04 — 2025.12</div>
+    <h5>Vision AI research Intern</h5>
+    <p>DeepAI Team</p>
+    <p><a href="https://www.kakaomobility.com/"><strong>Kakao Mobility</strong></a>, Seongnam, Gyeonggi-do, South Korea</p>
+  </article>
+  <article class="timeline-item">
+    <div class="timeline-date">2024.10 — 2025.01</div>
+    <h5>Perception Engineer</h5>
+    <p>Vueone Team (Autonomous Driving)</p>
+    <p><a href="https://www.vueron.com/"><strong>Vueron Technology</strong></a>, Seoul, South Korea</p>
+  </article>
+  <article class="timeline-item">
+    <div class="timeline-date">2024.03 — 2024.07</div>
+    <h5>Student Trainee</h5>
+    <p>H-mobility class (Autonomous Driving)</p>
+    <p><a href="https://h-mobility-class.com/"><strong>Hyundai H-mobility class</strong></a>, Seoul, South Korea</p>
+  </article>
+</div>
+
+  </div>
+</div>
+
+        </section>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+  </div>
+</div>
+
+          
+          
+            <div class="container text-container">
+              <h3 id="projects">Projects</h3>
+              <div class="row clearfix">
   <div class="col-md-12">
     <p><strong>Vision AI solution for parking lot</strong><br />
 • Object Detection, OCR for parking payment system<br />
@@ -103,59 +200,20 @@
   </div>
 </div>
 
-          </div>
+            </div>
+          
         
-          <div class="container text-container">
-            <h3 id="experience">Experience</h3>
-            <div class="row clearfix">
-  <div class="col-md-12">
-    <p><strong>Vision AI Researcher (Intern)</strong><br />
-DeepAI Team<br />
-<a href="https://www.kakaomobility.com/"><strong>Kakao Mobility</strong></a>, Seongnam, Gyeonggi-do, South Korea<br />
-2025.04 — 2025.12</p>
-
-<p><br /></p>
-
-<p><strong>Perception Engineer</strong><br />
-Vueone Team (Autonomous Driving)<br />
-<a href="https://www.vueron.com/"><strong>Vueron Technology</strong></a>, Seoul, South Korea<br />
-2024.10 — 2025.01</p>
-
-<p><br /></p>
-
-<p><strong>Student Trainee</strong><br />
-H-mobility class (Autonomous Driving)<br />
-<a href="https://h-mobility-class.com/"><strong>Hyundai H-mobility class</strong></a>, Seoul, South Korea<br />
-2024.03 — 2024.07</p>
-
-  </div>
-</div>
-
-          </div>
+          
+          
         
-          <div class="container text-container">
-            <h3 id="education">Education</h3>
-            <div class="row clearfix">
-  <div class="col-md-12">
-    <p><strong>M.S. in Automotive Engineering</strong><br />
-<a href="https://ircv.hanyang.ac.kr/"><strong>IRCV Lab</strong></a> (Intelligent Robotics &amp; Computer Vision Lab)<br />
-<strong>Hanyang University</strong><br />
-2026.03 — Present</p>
-
-<p><br /></p>
-
-<p><strong>B.S. in Interdisciplinary Computing Technology, Double in Computer Science</strong><br />
-<strong>Hanyang University (ERICA)</strong><br />
-2019.03 — 2024.08</p>
-
-  </div>
-</div>
-
-          </div>
+          
+          
         
-          <div class="container text-container">
-            <h3 id="awards">Awards</h3>
-            <div class="row clearfix">
+          
+          
+            <div class="container text-container">
+              <h3 id="awards">Awards</h3>
+              <div class="row clearfix">
   <div class="col-md-12">
     <p><strong>2nd Prize</strong>, AI Hackathon (KAMOTHON)<br />
 <strong>Kakao Mobility</strong><br />
@@ -188,7 +246,39 @@ H-mobility class (Autonomous Driving)<br />
   </div>
 </div>
 
-          </div>
+            </div>
+          
+        
+          
+          
+            <div class="container text-container">
+              <h3 id="papers">Papers</h3>
+              <div class="row clearfix">
+  <div class="col-md-12">
+    <p>Preparing a publications list.</p>
+
+  </div>
+</div>
+
+            </div>
+          
+        
+
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
         
       </div>
   </main><div class="container footer-container">

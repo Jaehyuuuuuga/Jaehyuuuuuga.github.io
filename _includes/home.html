@@ -1,0 +1,39 @@
+<div id="home" class="container home-container">
+  {%- include header.html embedded=true -%}
+
+  <div class="home-grid">
+    <section class="home-card home-card--about">
+      <h4>Introduction</h4>
+      <div class="row clearfix home-about-row">
+        {%- if site.about_profile_image -%}
+          <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+            <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
+          </div>
+        {%- endif -%}
+        <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+          {{ site.about_content | strip | markdownify }}
+        </div>
+      </div>
+    </section>
+
+    {% for section in site.content %}
+      {% assign section_name = section.title | downcase %}
+      {% if section_name == 'education' %}
+        <section class="home-card home-card--{{ section_name }}">
+          <h4 id="{{ section.title | slugify }}">{{ section.title }}</h4>
+          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+        </section>
+      {% endif %}
+    {% endfor %}
+
+    {% for section in site.content %}
+      {% assign section_name = section.title | downcase %}
+      {% if section_name == 'experience' %}
+        <section class="home-card home-card--{{ section_name }}">
+          <h4 id="{{ section.title | slugify }}">{{ section.title }}</h4>
+          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+        </section>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

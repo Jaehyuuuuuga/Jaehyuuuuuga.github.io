@@ -5,7 +5,7 @@
 
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
-  {%- include header.html -%}
+  {%- include top-nav.html -%}
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
@@ -14,14 +14,27 @@
         {%- include gtm_body.html -%}
       {%- endif -%}
 
-      {%- include about.html -%}
-
       {%- if site.version == 2 -%}
+        {%- include home.html -%}
+
         {% for section in site.content %}
-          <div class="container {{ section.layout }}-container">
-            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
-          </div>
+          {% assign section_name = section.title | downcase %}
+          {% if section_name == 'projects' or section_name == 'awards' or section_name == 'papers' %}
+            <div class="container {{ section.layout }}-container">
+              <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+              {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+            </div>
+          {% endif %}
+        {% endfor %}
+
+        {% for section in site.content %}
+          {% assign section_name = section.title | downcase %}
+          {% unless section_name == 'experience' or section_name == 'education' or section_name == 'projects' or section_name == 'awards' or section_name == 'papers' or section_name == 'cv' %}
+            <div class="container {{ section.layout }}-container">
+              <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+              {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+            </div>
+          {% endunless %}
         {% endfor %}
       {% else %}
         {%- include v1/default.html -%}
