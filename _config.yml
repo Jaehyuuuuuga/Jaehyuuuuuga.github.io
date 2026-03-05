@@ -54,7 +54,7 @@ instagram_username: jaehyuuuuuga
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/cyl_photo3.jpg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello, My name is Jaehyeok Kim, a Master’s student in Automotive Engineering. I'm interested in Autonomous Driving, with a particular focus on optimizing the inference performance and efficiency of Vision AI models in embedded environments.
 #    - <a href="google.com">Links</a>
