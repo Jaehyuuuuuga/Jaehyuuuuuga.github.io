@@ -6,29 +6,31 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Chanyoung Lee
+name: Jaehyeok Kim
 # title : Vision AI Engineer
-email : cylee2112@gmail.com
-email2 : lcy1221@hanyang.ac.kr
+email : wooguu310@gmail.com
+#email2 : lcy1221@hanyang.ac.kr
 # email_title: Email (Email title override)
-phone : (+82)10-6512-2476
+phone : (+82)10-4182-9220
+url: "https://jaehyuuuuuga.github.io"
+baseurl: ""
 # phone_title: Phone (Phone title override)
 # website: https://github.com/hungrypro7
 # website_title: Web (Website title override)
-cv_url: /assets/cv.pdf
+#cv_url: /assets/cv.pdf
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  hungrypro7
+github_username:  Jaehyuuuuuga
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
-instagram_username: chan0_i
-linkedin_username: chanyoung-lee-784963232
+instagram_username: jaehyuuuuuga
+# linkedin_username: chanyoung-lee-784963232
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -54,126 +56,130 @@ linkedin_username: chanyoung-lee-784963232
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/cyl_photo3.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, My name is Chanyoung Lee, a Master’s student in Automotive Engineering at Hanyang University. I'm interested in E2E Autonomous Driving, with a particular interest in Vision AI that improves the safety and intelligence of self-driving systems.
+  Hello, My name is Jaehyeok Kim, a Master’s student in Automotive Engineering. I'm interested in Autonomous Driving, with a particular focus on optimizing the inference performance and efficiency of Vision AI models in embedded environments.
 #    - <a href="google.com">Links</a>
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects
     layout: text
-    content: |-
-      **Vision AI solution for parking lot**  
-      • Object Detection, OCR for parking payment system  
-      • Model Optimization for Jetson, Hailo Device (GPU & NPU)  
-      • Object Tracking for parking lot  
-      <br>
-      **3D pedestrian detection using LiDAR**  
-      • LiDAR data parsing (Ouster & Hesai)  
-      • Segmentation, Clustering, Shape Estimation  
-      • 3D bounding box generation, Rule-based SW for pedestrian detection  
-      <br>
-      **H-mobility class**  
-      • Road Semantic Segmentation, Object Detection using YOLO  
-      • ROS2 for Perception, Planning, Control modules  
-      • Customized PID control for autonomous vehicle  
-      <a href="https://github.com/hungrypro7/H-Mobility-Autonomous-Advanced-Course" target="_blank" rel="noopener">
-      <i class="fab fa-github"></i>
-      </a>
-      <a href="https://github.com/hungrypro7/TeamOP" target="_blank" rel="noopener">
-      <i class="fab fa-github"></i>
-      </a>  
-      <br>
-      **Real-time Digital twin with KT group**  
-      • Object Detection, Object Tracking  
-      • Data pipeline for Digital Twin  
-      • Simulation using Unity  
-      <a href="https://github.com/hungrypro7/KT_digital_twin" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>  
-      <br>
-      **Self-Driving-Car-Cone-Keeping-Assistance-System**  
-      • Sensor fusion (Camera + LiDAR)  
-      • ROS for Perception  
-      • LoRA for E-stop, CAN for steering actuator  
-      <a href="https://github.com/hungrypro7/Self-Driving-Car-Cone-Keeping-Assistance-System" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>  
-      <br>
-      **EV3 Robot Driving**  
-      • Color line detection  
-      • Minimum cost algorithm for path planning  
-      <a href="https://github.com/hungrypro7/Smart-sensor-and-actuator" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
+    content: |
+      Preparing
+# **Vision AI solution for parking lot**  
+# • Object Detection, OCR for parking payment system  
+# • Model Optimization for Jetson, Hailo Device (GPU & NPU)  
+# • Object Tracking for parking lot  
+# <br>
+# **3D pedestrian detection using LiDAR**  
+# • LiDAR data parsing (Ouster & Hesai)  
+# • Segmentation, Clustering, Shape Estimation  
+# • 3D bounding box generation, Rule-based SW for pedestrian detection  
+# <br>
+# **H-mobility class**  
+# • Road Semantic Segmentation, Object Detection using YOLO  
+# • ROS2 for Perception, Planning, Control modules  
+# • Customized PID control for autonomous vehicle  
+# <a href="https://github.com/hungrypro7/H-Mobility-Autonomous-Advanced-Course" target="_blank" rel="noopener">
+# <i class="fab fa-github"></i>
+# </a>
+# <a href="https://github.com/hungrypro7/TeamOP" target="_blank" rel="noopener">
+# <i class="fab fa-github"></i>
+# </a>  
+# <br>
+# **Real-time Digital twin with KT group**  
+# • Object Detection, Object Tracking  
+# • Data pipeline for Digital Twin  
+# • Simulation using Unity  
+# <a href="https://github.com/hungrypro7/KT_digital_twin" target="_blank" rel="noopener">
+#   <i class="fab fa-github"></i>
+# </a>  
+# <br>
+# **Self-Driving-Car-Cone-Keeping-Assistance-System**  
+# • Sensor fusion (Camera + LiDAR)  
+# • ROS for Perception  
+# • LoRA for E-stop, CAN for steering actuator  
+# <a href="https://github.com/hungrypro7/Self-Driving-Car-Cone-Keeping-Assistance-System" target="_blank" rel="noopener">
+#   <i class="fab fa-github"></i>
+# </a>  
+# <br>
+# **EV3 Robot Driving**  
+# • Color line detection  
+# • Minimum cost algorithm for path planning  
+# <a href="https://github.com/hungrypro7/Smart-sensor-and-actuator" target="_blank" rel="noopener">
+#   <i class="fab fa-github"></i>
+# </a>
 
   - title: Experience
     layout: text
     content: |
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-date">2025.04 — 2025.12</div>
-          <h5>Vision AI research Intern</h5>
-          <p>DeepAI Team</p>
-          <p><a href="https://www.kakaomobility.com/"><strong>Kakao Mobility</strong></a>, Seongnam, Gyeonggi-do, South Korea</p>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-date">2024.10 — 2025.01</div>
-          <h5>Perception Engineer</h5>
-          <p>Vueone Team (Autonomous Driving)</p>
-          <p><a href="https://www.vueron.com/"><strong>Vueron Technology</strong></a>, Seoul, South Korea</p>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-date">2024.03 — 2024.07</div>
-          <h5>Student Trainee</h5>
-          <p>H-mobility class (Autonomous Driving)</p>
-          <p><a href="https://h-mobility-class.com/"><strong>Hyundai H-mobility class</strong></a>, Seoul, South Korea</p>
-        </article>
-      </div>
+      Preparing
+# <div class="timeline">
+#   <article class="timeline-item">
+#     <div class="timeline-date">2025.04 — 2025.12</div>
+#     <h5>Vision AI research Intern</h5>
+#     <p>DeepAI Team</p>
+#     <p><a href="https://www.kakaomobility.com/"><strong>Kakao Mobility</strong></a>, Seongnam, Gyeonggi-do, South Korea</p>
+#   </article>
+#   <article class="timeline-item">
+#     <div class="timeline-date">2024.10 — 2025.01</div>
+#     <h5>Perception Engineer</h5>
+#     <p>Vueone Team (Autonomous Driving)</p>
+#     <p><a href="https://www.vueron.com/"><strong>Vueron Technology</strong></a>, Seoul, South Korea</p>
+#   </article>
+#   <article class="timeline-item">
+#     <div class="timeline-date">2024.03 — 2024.07</div>
+#     <h5>Student Trainee</h5>
+#     <p>H-mobility class (Autonomous Driving)</p>
+#     <p><a href="https://h-mobility-class.com/"><strong>Hyundai H-mobility class</strong></a>, Seoul, South Korea</p>
+#   </article>
+# </div>
 
   - title: Education
     layout: text
     content: |
-      <i class="fas fa-graduation-cap"></i> **M.S. in Automotive Engineering**  
-      [**IRCV Lab**](https://ircv.hanyang.ac.kr/) (Intelligent Robotics & Computer Vision Lab)  
-      **Hanyang University**  
-      2026.03 — Present
+      Preparing
+# <i class="fas fa-graduation-cap"></i> **M.S. in Automotive Engineering**  
+# [**IRCV Lab**](https://ircv.hanyang.ac.kr/) (Intelligent Robotics & Computer Vision Lab)  
+# **Hanyang University**  
+# 2026.03 — Present
 
-      <br>
+# <br>
 
-      <i class="fas fa-graduation-cap"></i> **B.S. in Interdisciplinary Computing Technology, Double in Computer Science**  
-      **Hanyang University (ERICA)**  
-      2019.03 — 2024.08
+# <i class="fas fa-graduation-cap"></i> **B.S. in Interdisciplinary Computing Technology, Double in Computer Science**  
+# **Hanyang University (ERICA)**  
+# 2019.03 — 2024.08
 
   - title: Awards
     layout: text
     content: |
-      **2nd Prize**, AI Hackathon (KAMOTHON)  
-      **Kakao Mobility**  
-      2025.12
+      Preparing
+# **2nd Prize**, AI Hackathon (KAMOTHON)  
+# **Kakao Mobility**  
+# 2025.12
 
-      <br>
+# <br>
 
-      **2nd Prize**, ICT Convergence Capstone Design Competition  
-      **College of Computing, Hanyang University**  
-      2024.05
+# **2nd Prize**, ICT Convergence Capstone Design Competition  
+# **College of Computing, Hanyang University**  
+# 2024.05
 
-      <br>
+# <br>
 
-      **1st Prize**, Engineering College Academic Festival  
-      **College of Engineering, Hanyang University**  
-      2023.11
+# **1st Prize**, Engineering College Academic Festival  
+# **College of Engineering, Hanyang University**  
+# 2023.11
 
-      <br>
+# <br>
 
-      **Best Rookie Award**, University Creative Mobility Competition (1st Place among first-time participating teams, Autonomous Driving Performance Division)  
-      **Korea Automotive Safety Association**  
-      2023.10
+# **Best Rookie Award**, University Creative Mobility Competition (1st Place among first-time participating teams, Autonomous Driving Performance Division)  
+# **Korea Automotive Safety Association**  
+# 2023.10
 
-      <br>
+# <br>
 
-      **2nd Prize**, 5th SW Startup Makerthon  
-      **College of Computing, Hanyang University**  
-      2023.06
+# **2nd Prize**, 5th SW Startup Makerthon  
+# **College of Computing, Hanyang University**  
+# 2023.06
 
   - title: Papers
     layout: text
